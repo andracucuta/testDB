@@ -24,6 +24,8 @@ public class ObserverNews {
         NewsSubscriber s = new FickleSubscriber();
         n.subscribe(s);
         n.generateNews();
+
+        System.out.println("S-a modificat ceva");
     }
     
 }
