@@ -16,7 +16,7 @@ public class SpecialNewspaper extends Newspaper{
     }
     
     public void generateNews(){
-        this.content = "somenews";
+        this.content = "somenews to read";
         this.notifySubscribers();
     }
 
