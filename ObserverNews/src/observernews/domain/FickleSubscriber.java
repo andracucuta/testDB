@@ -20,7 +20,7 @@ public class FickleSubscriber implements NewsSubscriber {
         if (r.nextBoolean()) {
             System.out.println("got content " + n.getContent());
         } else {
-            System.out.println("not today");
+            System.out.println("not today boss");
         }
 
     }
